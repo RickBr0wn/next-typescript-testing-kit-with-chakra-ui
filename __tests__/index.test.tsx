@@ -2,8 +2,9 @@ import { render, screen } from '@testing-library/react'
 import Home from '../src/pages/index'
 
 describe('Home', () => {
-	it('renders the welcome component', () => {
+	it('renders Welcome component', () => {
 		render(<Home />)
-		expect(screen.getByRole('main')).toBeInTheDocument()
+		const welcomeElement = screen.getByTestId('welcome')
+		expect(welcomeElement).toBeInTheDocument()
 	})
 })

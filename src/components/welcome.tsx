@@ -3,7 +3,7 @@ import type { FC } from 'react'
 
 const Welcome: FC = (): JSX.Element => {
 	return (
-		<Flex flexDir={'column'} align={'center'} h={'calc(100vh - 80px)'}>
+		<Flex data-testid='welcome' flexDir={'column'} align={'center'} h={'calc(100vh - 80px)'}>
 			{/* 80px is the height of the navbar */}
 			<Spacer />
 			<Heading>Welcome to this</Heading>
