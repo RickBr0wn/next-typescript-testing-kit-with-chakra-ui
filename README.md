@@ -3,9 +3,18 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)]()
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 
-## ⚡️ Quick Start
+Welcome to the Next.js TypeScript Testing Kit with Chakra UI! This starter kit provides a solid foundation for building Next.js applications with TypeScript, Chakra UI, and testing libraries. It includes everything you need to get started with building modern, responsive web applications that are easy to maintain and test.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/RickBr0wn/next-typescript-testing-kit-with-chakra)
+The starter kit comes pre-configured with the following technologies:
+
+- Next.js: a popular framework for building server-rendered React applications with performance optimizations out of the box.
+- TypeScript: a statically typed superset of JavaScript that helps catch errors early in the development process.
+- Chakra UI: a modular and accessible component library that makes it easy to build beautiful and responsive UIs.
+- Testing libraries: Jest and React Testing Library are included for writing unit and integration tests.
+
+This starter kit is designed to help you quickly scaffold a new project and get up and running with minimal setup. Whether you're building a simple static website or a complex application, this starter kit provides a solid foundation for your project.
+
+We hope you find this starter kit useful, and we welcome any feedback or contributions to help make it even better!
 
 ## 🚀 Getting Started
 
