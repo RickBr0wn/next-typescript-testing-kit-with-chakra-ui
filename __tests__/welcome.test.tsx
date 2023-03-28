@@ -1,6 +1,7 @@
-import { render, screen } from '@testing-library/react'
+import { screen } from '@testing-library/react'
 import '@testing-library/jest-dom/extend-expect'
 import Welcome from '../src/components/welcome'
+import { render } from '../test-utils'
 
 describe('Welcome component', () => {
 	it('renders the welcome headings', () => {
@@ -11,6 +12,12 @@ describe('Welcome component', () => {
 		expect(heading1).toBeInTheDocument()
 		expect(heading2).toBeInTheDocument()
 		expect(heading3).toBeInTheDocument()
+	})
+
+	it('should render the layout', () => {
+		render(<Welcome />, { withLayout: true })
+		const toggle = screen.getByTestId('toggle-light-dark-mode')
+		expect(toggle).toBeInTheDocument()
 	})
 
 	it('renders the "Get started by editing" text', () => {

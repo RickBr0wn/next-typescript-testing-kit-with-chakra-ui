@@ -16,7 +16,7 @@ const Layout: FC<LayoutProps> = ({ children }): JSX.Element => {
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
-			<Flex h={'100vh'} w={'100vw'} flexDir={'column'}>
+			<Flex data-testid='layout' h={'100vh'} w={'100vw'} flexDir={'column'}>
 				<Navbar /> {/* This navbar is 80px tall */}
 				{children}
 			</Flex>

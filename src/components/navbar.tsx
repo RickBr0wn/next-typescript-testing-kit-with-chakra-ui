@@ -6,7 +6,7 @@ interface NavbarProps {}
 
 const Navbar: FC<NavbarProps> = (): JSX.Element => {
 	return (
-		<Flex as={'nav'} role={'navigation'} width={'100%'} padding={4}>
+		<Flex as={'nav'} role={'navigation'} width={'100%'} padding={4} h={'80px'}>
 			<Spacer />
 			<ToggleLightDarkMode />
 		</Flex>
