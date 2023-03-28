@@ -5,7 +5,7 @@
 
 ## ⚡️ Quick Start
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/RickBr0wn/next-typescript-testing-kit-with-chakra)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/RickBr0wn/next-typescript-testing-kit-with-chakra-ui)
 
 ## 🚀 Getting Started
 
@@ -24,7 +24,7 @@ To get this project running locally you will need:
 Clone the repo, don't forget to change the name of the project:
 
 ```bash
-npx create-next-app <YOUR_PROJECT_NAME> -e https://github.com/RickBr0wn/next-typescript-testing-kit-with-chakra
+npx create-next-app <YOUR_PROJECT_NAME> -e https://github.com/RickBr0wn/next-typescript-testing-kit-with-chakra-ui
 ```
 
 > Important note: You will need to install the dependencies manually, by using the command `npm install` in the root of the project.
