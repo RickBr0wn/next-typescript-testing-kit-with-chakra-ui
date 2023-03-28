@@ -14,7 +14,7 @@ The starter kit comes pre-configured with the following technologies:
 
 This starter kit is designed to help you quickly scaffold a new project and get up and running with minimal setup. Whether you're building a simple static website or a complex application, this starter kit provides a solid foundation for your project.
 
-We hope you find this starter kit useful, and we welcome any feedback or contributions to help make it even better!
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/RickBr0wn/next-typescript-testing-kit-with-chakra)
 
 ## 🚀 Getting Started
 
@@ -33,7 +33,7 @@ To get this project running locally you will need:
 Clone the repo, don't forget to change the name of the project:
 
 ```bash
-npx create-next-app <YOUR_PROJECT_NAME> -e https://github.com/RickBr0wn/next-typescript-testing-kit-with-chakra
+npx create-next-app <YOUR_PROJECT_NAME> -e https://github.com/RickBr0wn/next-typescript-testing-kit-with-chakra-ui
 ```
 
 > Important note: You will need to install the dependencies manually, by using the command `npm install` in the root of the project.
