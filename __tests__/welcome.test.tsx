@@ -6,9 +6,10 @@ import { render } from '../test-utils'
 describe('Welcome component', () => {
 	it('renders the welcome headings', () => {
 		render(<Welcome />)
-		const heading1 = screen.getByText(/Welcome to this/i)
-		const heading2 = screen.getByText(/Next.js Typescript & Chakra-UI/i)
-		const heading3 = screen.getByText(/starter/i)
+
+		const heading1 = screen.getByText(/next.js typescript testing kit/i)
+		const heading2 = screen.getByText(/with/i)
+		const heading3 = screen.getByText(/chakra ui/i)
 		expect(heading1).toBeInTheDocument()
 		expect(heading2).toBeInTheDocument()
 		expect(heading3).toBeInTheDocument()
@@ -30,11 +31,11 @@ describe('Welcome component', () => {
 		render(<Welcome />)
 		const codeComponents = screen.getAllByTestId('code-component')
 		const fileNames = [
-			'pages/index.tsx',
-			'theme/theme.ts',
-			'components/Layout.tsx',
-			'components/Welcome.tsx',
-			'components/Navbar.tsx'
+			'~/src/pages/index.tsx',
+			'~/src/theme/theme.ts',
+			'~/src/components/Layout.tsx',
+			'~/src/components/Welcome.tsx',
+			'~/src/components/Navbar.tsx'
 		]
 		codeComponents.forEach((codeComponent, index) => {
 			expect(codeComponent).toHaveTextContent(fileNames[index])
