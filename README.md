@@ -77,7 +77,7 @@ This will create an optimized production build in the `~/dist` directory.
 
 This starter kit is designed to work seamlessly with [Vercel](https://vercel.com/), a cloud platform for static and serverless websites. To deploy your project to Vercel, simply sign up for a Vercel account and connect your GitHub repository. Vercel will automatically build and deploy your project whenever you push changes to the repository.
 
-## 🧐 Built With
+## Built With
 
 - [Typescript](https://www.typescriptlang.org/) - TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 - [React](https://reactjs.org) - A JavaScript library for building user interfaces.
@@ -89,14 +89,14 @@ This starter kit is designed to work seamlessly with [Vercel](https://vercel.com
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) - Simple and complete React DOM testing utilities that encourage good testing practices.
 - [Jest-DOM](https://github.com/testing-library/jest-dom#readme) - Custom jest matchers to test the state of the DOM.
 
-## ⭐️ Contributing
+## Contributing
 
 [CONTRIBUTING.md](https://gist.github.com/RickBr0wn/0b4a139f833e0d0bafddb0d043644b20)
 
-## 📚 Author(s)
+## Author(s)
 
 - **Rick Brown** - _Initial work_ - [RickBr0wn](https://github.com/RickBr0wn)
 
-## 🪪 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://gist.github.com/RickBr0wn/5f95ee6118bb32034e2b94acbd88a99d) file for details.
