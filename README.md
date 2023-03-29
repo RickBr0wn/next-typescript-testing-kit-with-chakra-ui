@@ -7,18 +7,17 @@ This is a starter kit for Next.js projects using TypeScript and Chakra UI, with 
 
 ## Getting started
 
-This will create a new Next.js project in the `<YOUR_PROJECT_NAME>` directory, using this starter kit as a template:
+To use this starter kit, you'll need to have [Node.js](https://nodejs.org/en/) and [pnpm](https://pnpm.io/) installed on your machine. To create a new Next.js project using this starter kit as a template, run the following command:
 
 ```bash
-git clone https://github.com/RickBr0wn/next-typescript-testing-kit-with-chakra-ui.git
-cd next-typescript-testing-kit-with-chakra-ui
-pnpm install
+npx create-next-app <YOUR_PROJECT_NAME> -e https://github.com/RickBr0wn/next-typescript-testing-kit-with-chakra-ui
 ```
 
-After the project is created, you can navigate to the project directory and start the development server with the following command:
+This will create a new Next.js project in the `<YOUR_PROJECT_NAME>` directory, using this starter kit as a template. After the project is created, you can navigate to the project directory and start the development server with the following commands:
 
 ```bash
-pnpm dev
+cd <YOUR_PROJECT_NAME>
+pnpm run dev
 ```
 
 This will start the development server at <http://localhost:3000>.
