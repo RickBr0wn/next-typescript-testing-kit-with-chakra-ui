@@ -1,7 +1,7 @@
 # Next.js TypeScript Testing Kit with Chakra UI
 
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)]()
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
+![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)
 
 Welcome to the Next.js TypeScript Testing Kit with Chakra UI! This starter kit provides a solid foundation for building Next.js applications with TypeScript, Chakra UI, and testing libraries. It includes everything you need to get started with building modern, responsive web applications that are easy to maintain and test.
 
