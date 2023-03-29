@@ -14,9 +14,7 @@ The starter kit comes pre-configured with the following technologies:
 
 This starter kit is designed to help you quickly scaffold a new project and get up and running with minimal setup. Whether you're building a simple static website or a complex application, this starter kit provides a solid foundation for your project.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/RickBr0wn/next-typescript-testing-kit-with-chakra)
-
-## 🚀 Getting Started
+## 🎬 Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -53,6 +51,11 @@ npm run test
 ```
 
 This will run all of the test suites with Jest and React Testing Library, in watch mode.
+
+## 🚀 Fast Deployment to Vercel
+
+Once set up this template can be instantly hosted on the vercel platform
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/RickBr0wn/next-typescript-testing-kit-with-chakra-ui)
 
 ## 🧐 Built With
 

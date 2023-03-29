@@ -2,6 +2,7 @@ import React, { FC, ReactElement, ReactNode } from 'react'
 import { render as rtlRender, RenderOptions } from '@testing-library/react'
 import { ChakraProvider } from '@chakra-ui/react'
 import Layout from './src/components/layout'
+import '@testing-library/jest-dom/extend-expect'
 
 interface CustomRenderOptions extends RenderOptions {
 	withLayout?: boolean
